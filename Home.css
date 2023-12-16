@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    display: grid;
+    background-image: url('Assets/moon1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 150px;
+    width: 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: ivory;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+nav a img {
+    width: 35px;
+    height: 35px;
+}
+
+.HomeContent {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    opacity: 0; 
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.HomeContent h1 {
+    color: ivory;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.HomeContent p {
+    font-size: 40px;
+    margin-top: -8px;
+    color: ivory;
+}

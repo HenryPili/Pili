@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    display: grid;
+    background-image: url('Assets/moon4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+} 
+.logo img{
+    
+    height: 150px;
+    width: 300px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+nav ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: ivory;
+}
+nav ul li a:hover{
+    color: lightblue;
+}
+
+nav a img{
+    width: 35px;
+    height: 35px;
+}
+
+.containers {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.containers img {
+    height: 400px;
+    width: 600px;
+    gap: 10px;
+}
+.imgcon {
+    display: grid;
+}
+.imgcon ul li {
+    font-size: 20px;
+    color: ivory;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.imgcon img {
+    height: 400px;
+    width: 600px;
+    gap: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@media screen and (max-width:767px) {
+    
+}
