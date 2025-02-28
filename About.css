@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* ABOUTME CONTENT */
-body{
+body {
     display: grid;
-    background-image: url('Assets/moon13.png');
+    background-image: url('Assets/5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 145vh;
     font-family: 'Poppins', sans-serif;
 }
+
 nav {
     margin: auto;
     height: 100px;
@@ -16,34 +17,36 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
 }
-nav .logo{
+
+nav .logo {
     display: flex;
     align-items: center;
-} 
-.logo img{
-    
-    height: 150px;
-    width: 300px;
 }
-nav ul{
+
+.logo img {
+    height: 150px;
+    width: 150px;
+}
+
+nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    
 }
-nav ul li a{
+
+nav ul li a {
     margin-right: 30px;
     text-decoration: none;
-    color: ivory;
+    color: black;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: lightblue;
 }
 
-nav a img{
+nav a img {
     width: 35px;
     height: 35px;
 }
@@ -65,8 +68,8 @@ nav a img{
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-    
 }
+
 .content img {
     height: 400px;
     width: 400px;
@@ -75,32 +78,46 @@ nav a img{
     align-items: center;
     border-radius: 50%;
 }
+
+/* Improved Text Visibility */
 .text {
     width: 800px;
     max-width: 100%;
-    padding: 0 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
 }
+
 .text p {
     font-size: 20px;
     text-align: justify;
-    color: ivory;
+    color: #fff; /* White text for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Soft shadow for clarity */
 }
+
 .text h1 {
     font-size: 50px;
-    color: ivory;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Stronger shadow for heading */
 }
+
 .link {
     display: flex;
 }
+
 .link ul {
     width: 50%;
     padding: 0 40px;
 }
+
 .link ul li {
     font-size: 20px;
     margin-bottom: 15px;
     color: white;
 }
+
 .skill {
     width: 100%;
     border-radius: 8px;
@@ -109,6 +126,7 @@ nav a img{
     justify-content: center;
     margin-bottom: 100px;
 }
+
 .Techcon {
     padding: 30px;
     text-align: center;
@@ -117,6 +135,7 @@ nav a img{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: white;
 }
+
 .Techcon p {
     font-size: 50px;
     border-radius: 50px;
@@ -157,20 +176,12 @@ nav a img{
     color: #fff;
     border-radius: 5px;
 }
+
 .About {
     opacity: 0;
-    transition: opacity 2s ease; 
+    transition: opacity 2s ease;
 }
 
 .About.fade-in {
     opacity: 2;
 }
-
-
-
-
-
-
-
-
-

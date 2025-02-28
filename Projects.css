@@ -3,7 +3,7 @@
 
 body{
     display: grid;
-    background-image: url('Assets/moon4.jpg');
+    background-image: url('Assets/6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
@@ -25,7 +25,7 @@ nav .logo{
 .logo img{
     
     height: 150px;
-    width: 300px;
+    width: 150px;
 }
 nav ul{
     display: flex;
@@ -37,7 +37,7 @@ nav ul{
 nav ul li a{
     margin-right: 30px;
     text-decoration: none;
-    color: ivory;
+    color: black;
 }
 nav ul li a:hover{
     color: lightblue;
@@ -63,7 +63,7 @@ nav a img{
 }
 .imgcon ul li {
     font-size: 20px;
-    color: ivory;
+    color: black;
 }
 @keyframes fadeIn {
     from {
